@@ -1,0 +1,16 @@
+.sidebar.sidebar-dark{
+    background-color: #222;
+    background-image: none;
+}
+.custom-flex{display:flex;
+flex-direction:column}
+.sidebar-dark .sidebar-brand {
+    background-color: #ffffff;
+    border-bottom: 2px solid #00b8b5;
+}
+.sidebar-dark .nav-item .nav-link i {
+ 
+    margin-right: .5rem;
+}
+.sidebar-brand img{width: 100%;}
+.ReactModal__Content{padding: 0 !important;}

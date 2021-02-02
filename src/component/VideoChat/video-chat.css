@@ -1,0 +1,72 @@
+.meeting-footer {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.meeting-footer-container {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 20px;
+  bottom: 0;
+  color: #fff;
+  background-color: cadetblue;
+}
+.video-conatiner {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.footer-btn {
+  cursor: pointer;
+  padding: 4px;
+  background-color: cadetblue;
+  outline-style: none;
+  border-style: hidden;
+}
+.meeting-detail {
+  margin-top: 60px;
+  margin-left: 50px;
+  font-size: 25px;
+}
+.meeting-wrapper {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.meeting-toolbar .navigation-container ul {
+  flex-direction: column !important;
+  align-items: center;
+  text-align: center;
+}
+.navigation-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 20px;
+}
+.videoStyles {
+  z-index: 6;
+  position: 'fixed';
+  top: 12%;
+  min-width: 70%;
+  width: 75%;
+  min-height: 70%;
+  height: 80%;
+  background-color: black;
+}
+.footerStyles {
+  z-index: 7;
+  position: fixed;
+  bottom: 2%;
+  min-width: 70%;
+  width: 75%;
+  padding: 5;
+  margin-left: 50;
+  margin-bottom: 20;
+  background-color: black;
+}

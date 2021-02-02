@@ -1,0 +1,44 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "globals": {
+      "window": true,
+      "document": true
+    },
+    "rules": {
+      "import/no-unresolved": "off",
+      "linebreak-style": 0,
+      "extends": "eslint:recommended",
+      "no-debugger": "off",
+      "no-param-reassign": [
+        2,
+        {
+          "props": false
+        }
+      ],
+      "import/extensions": [
+        "always",
+        "ignorePackages",
+        {
+          "js": "always",
+          "mjs": "always",
+          "jsx": "always"
+        }
+      ],
+      "no-unused-expressions": [
+        "error",
+        {
+          "allowTaggedTemplates": true
+        }
+      ],
+      "dot-notation": [
+        "error",
+        {
+          "allowPattern": "^[a-z]|[A-Z]"
+        }
+      ]
+    },
+    "settings": {
+      "import/resolver": "webpack"
+    }
+  }

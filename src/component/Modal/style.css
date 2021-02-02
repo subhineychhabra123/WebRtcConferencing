@@ -1,0 +1,113 @@
+.w-40 {
+  width: 40%;
+}
+
+.Inputfield {
+  padding: 7px 10px;
+  width: 100%;
+  outline-style: none;
+  border-style: none;
+  border: 1px solid #000;
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.save-btn {
+  color: #fff;
+  background-color: forestgreen;
+  height: 30px;
+  outline-style: none;
+  border-style: none;
+  align-items: center;
+  width: 80px;
+}
+
+.close-btn {
+  color: #fff;
+  background-color: darkred;
+  height: 30px;
+  outline-style: none;
+  border-style: none;
+  width: 80px;
+}
+
+.jc-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-error {
+  color: darkred;
+}
+
+.user-list {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  background-color: cadetblue;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+  margin-top: 1px;
+}
+
+.invite-btn {
+  color: white;
+  background-color: cadetblue;
+  outline-style: none;
+  border-style: none;
+  min-width: 60px;
+  padding: 3px;
+  text-align: center;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 2px;
+  height: 38px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* .ReactModalPortal .card{box-shadow:none;margin-bottom:0}
+  .ReactModalPortal .card  .card-header{padding:0}
+  .ReactModalPortal .card  .card-body{padding:0} */
+.status-active {
+  height: 40px;
+  color: #fff;
+  background-color: #e74a3b;
+  border-color: #e74a3b;
+  border-style: none;
+  outline-style: none;
+  border-radius: .35rem;
+}
+
+.status-active:focus,
+.status-active.focus {
+  color: #fff;
+  background-color: #e02d1b;
+  border-color: #d52a1a;
+  border-style: none;
+  outline-style: none;
+  border-radius: .35rem;
+}
+
+.status-pending {
+  height: 40px;
+  color: #fff;
+  background-color: #FFA500;
+  border-style: none;
+  outline-style: none;
+  border-radius: .35rem;
+}
+
+.status-pending:focus,
+.status-pending.focus {
+  color: #fff;
+  background-color: #FFA500;
+  border-color: #FFA500;
+  border-style: none;
+  outline-style: none;
+  border-radius: .35rem;
+}
